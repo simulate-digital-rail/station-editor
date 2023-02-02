@@ -21,6 +21,6 @@ Depends on:
 ## UI Mockup
 [UI Mockup]
 
-## Aceptance criteria
+## Acceptance criteria
 - [ ] Todo
 - [ ] ...

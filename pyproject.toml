@@ -10,6 +10,9 @@ packages = [{include = "station_editor"}]
 python = "^3.10"
 Flask = "^2.2.2"
 yaramo = {git = "https://github.com/simulate-digital-rail/yaramo"}
+planpro-importer = {git = "https://github.com/simulate-digital-rail/planpro-importer.git"}
+orm-importer = {git = "https://github.com/simulate-digital-rail/orm-importer.git"}
+cli-importer = {git = "https://github.com/simulate-digital-rail/cli-importer.git"}
 
 
 [build-system]

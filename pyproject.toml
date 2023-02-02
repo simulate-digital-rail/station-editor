@@ -15,6 +15,9 @@ orm-importer = {git = "https://github.com/simulate-digital-rail/orm-importer.git
 cli-importer = {git = "https://github.com/simulate-digital-rail/cli-importer.git"}
 
 
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

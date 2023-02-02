@@ -18,7 +18,18 @@ Returns the topology of network as a YARAMO model
     edges: [
         102: {
             nodeA: 101,
-            nodeB: 103
+            nodeB: 103,
+            geoNodes: [
+                107: {
+                    x,
+                    y
+                },
+                108: {
+                    x,
+                    y
+                },
+                ...
+            ]
         },
         ...
     ]

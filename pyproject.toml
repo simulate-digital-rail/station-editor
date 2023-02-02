@@ -9,6 +9,7 @@ packages = [{include = "station_editor"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 Flask = "^2.2.2"
+yaramo = {git = "https://github.com/simulate-digital-rail/yaramo"}
 
 
 [build-system]

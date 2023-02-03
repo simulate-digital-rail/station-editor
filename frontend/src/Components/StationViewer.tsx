@@ -47,7 +47,7 @@ function StationViewer (props: StationViewerProps): JSX.Element {
               return (
                 <div
                   key={id}
-                  className='p-2 border-b-2 bg-slate-100 hover:bg-slate-200 transition-all cursor-pointer'>
+                  className='p-2 border-b-2 bg-slate-50 hover:bg-slate-200 transition-all cursor-pointer'>
                   {stopArea.name}
                 </div>
               )
